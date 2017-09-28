@@ -1,9 +1,7 @@
 var express = require('express');
 var app = express();
 
-console.log("=====sdasd asdhi there============");
-
-
+console.log("=====server============");
 app.get('/',function(req,res) {
   res.send("Hello World");
 });
