@@ -5,5 +5,5 @@
 	npm install --production
 	pm2 delete -s susheelapp || :
 	pm2 start app.js --name=susheelapp
-	exit       
+	exit        
 EOF
